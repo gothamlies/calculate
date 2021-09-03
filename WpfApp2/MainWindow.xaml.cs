@@ -42,42 +42,42 @@ namespace WpfApp2
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            Double x = Convert.ToDouble(Display.Text);
+            Double x = Double.Parse(Display.Text);
             double l = (Math.Pow(x, 2));
             Display.Text = Convert.ToString(l);
         }
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
-            a = Convert.ToDouble(Display.Text);
+            a = Double.Parse(Display.Text);
             Display.Clear();
             d = 1;
         }
 
         private void Button_Click_4(object sender, RoutedEventArgs e)
         {
-            a = Convert.ToDouble(Display.Text);
+            a = Double.Parse(Display.Text);
             Display.Clear();
             d = 2;
         }
 
         private void Button_Click_5(object sender, RoutedEventArgs e)
         {
-            a = Convert.ToDouble(Display.Text);
+            a = Double.Parse(Display.Text);
             Display.Clear();
             d = 3;
         }
 
         private void Button_Click_6(object sender, RoutedEventArgs e)
         {
-            a = Convert.ToDouble(Display.Text);
+            a = Double.Parse(Display.Text);
             Display.Clear();
             d = 4;
         }
 
         private void Button_Click_7(object sender, RoutedEventArgs e)
         {
-            b = Convert.ToDouble(Display.Text);
+            b = Double.Parse(Display.Text);
             if (d == 1)
             {
                 Display.Text = Convert.ToString (a+b);
